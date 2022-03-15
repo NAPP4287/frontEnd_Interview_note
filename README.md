@@ -12,7 +12,15 @@
 
 ② 목차
 
+```
+1. Computer Science
+2. JavaScript
+3. React
+4. HTML
+5. CSS
+```
+
 <br/>
 <br/>
 
-### Computer Science
+### 1. Computer Science

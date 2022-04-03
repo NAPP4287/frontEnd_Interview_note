@@ -438,25 +438,45 @@
     - promise 기반이냐 아니냐의 차이
 
 - `REST API 🔥`
-  REST API가 뭔가요?
-  REST API의 구성은 어떤 것이 있나요?
-  REST API를 설계하는데 중요한 것이 있을까요?
-  HTTP 요청 메서드에 대해서 아는대로 얘기해보세요
-  HTTP 상태 코드를 아는대로 말해주세요 fire
+
+  - REST API가 뭔가요?
+    - HTTP URI를 통해 자원을 명시하고, HTTP Method (POST, GET, PUT, DELETE)를 통해 해당 자원에 대한 CRUD OPERATION을 적용하는 것을 의미한다.
+  - REST API의 구성은 어떤 것이 있나요?
+    - URL
+    - HTTP Method
+    - Representations
+  - HTTP 요청 메서드에 대해서 아는대로 얘기해보세요
+    - GET
+    - POST
+    - PUT
+    - DELETE
+  - HTTP 상태 코드를 아는대로 말해주세요 fire
+    - 2xx : 성공
+    - 3xx : 리다이렉션
+    - 4xx : 클라이언트 에러
+    - 5xx : 서버 에러
 
 - `Promise 🔥`
-  콜백이란 뭐라고 생각하나요? fire
-  프로미스가 뭔가요? fire
-  프로미스 생성 방법
-  프로미스의 상태를 나타내는 것은 어떤 것들이 있나요? fire
-  프로미스 빌트인 객체가 제공하는 정적 메서드에 대해 알고 있나요? fire
+
+  - 콜백이란 뭐라고 생각하나요? fire
+    - 다른 함수의 매개변수로 함수를 전달하고, 어떠한 이벤트가 발생한 후 매개변수로 전달한 함수가 다시 호출되는 것
+  - 프로미스가 뭔가요? fire
+    - 비동기 처리에 사용되는 객체
+  - 프로미스 생성 방법
+    - new Promise((resolve, reject) => {})
+  - 프로미스의 상태를 나타내는 것은 어떤 것들이 있나요? fire
+  - Pending
+  - Fullfilled
+  - Rejected
+  - 프로미스 빌트인 객체가 제공하는 정적 메서드에 대해 알고 있나요? fire
+    - promise.resolve
+    - promise.reject
+    - promise.all
 
 - `제너레이터와 async await 🔥`
-  제너레이터란 뭔가요? 일반 함수와는 어떤 차이가 있죠?
-  제너레이터의 구조
-  async/await 가 뭔가요? 기존의 Promise와는 어떤 차이가 있죠? fire
-  Promise와 async/await의 차이점 한 줄 요약 fire
 
-- `에러 🔥`
-  에러처리를 왜 해야 하나요? fire
-  자바스크립트에서 에러를 처리하는 방법에는 뭐가 있을까요?
+  - 제너레이터란 뭔가요? 일반 함수와는 어떤 차이가 있죠?
+    - 제너레이터 함수는 중간에 원하는 부분을 멈추었다가 다시 실행할 수 있게 하는 함수
+  - 제너레이터의 구조
+  - async/await 가 뭔가요? 기존의 Promise와는 어떤 차이가 있죠? fire
+  - Promise와 async/await의 차이점 한 줄 요약 fire
